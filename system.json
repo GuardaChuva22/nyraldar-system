@@ -33,10 +33,11 @@
   "primaryTokenAttribute": "system.recursos.vitalidade",
   "secondaryTokenAttribute": "system.recursos.sorte",
   "manifest": "https://raw.githubusercontent.com/GuardaChuva22/nyraldar-system/main/system.json",
-  "download": "https://github.com/GuardaChuva22/nyraldar-system/archive/refs/heads/main.zip",
+  "download": "https://github.com/GuardaChuva22/nyraldar-system/archive/refs/heads/main.zip"
   "grid": {
     "distance": 1,
     "units": "m"
   }
 }
+
 
