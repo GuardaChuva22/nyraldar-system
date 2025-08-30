@@ -1,0 +1,11 @@
+.nyr.sheet.actor { padding: 8px; }
+.nyr-header h1 { margin: 0 0 8px 0; font-size: 22px; }
+.grid { display: grid; gap: 12px; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.res-row label { display: inline-block; margin-right: 8px; }
+.attrs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.skills { width: 100%; border-collapse: collapse; }
+.skills th, .skills td { border-bottom: 1px solid #ddd; padding: 4px; }
+.skill-name { text-transform: capitalize; }
+.skill-roll { padding: 2px 8px; }
+.nyr-dialog label { display:block; margin:6px 0; }

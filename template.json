@@ -1,0 +1,36 @@
+{
+"Actor": {
+"templates": {
+"base": {
+"recursos": {
+"vitalidade": 10,
+"ferimentos": 0,
+"sorte": 3
+},
+"atributos": {
+"vigor": 0,
+"destreza": 0,
+"forca": 0,
+"essencia": 0,
+"instinto": 0,
+"destino": 0,
+"intelecto": 0,
+"carisma": 0,
+"vontade": 0
+},
+"pericias": {
+"acrobacia": 0, "armas": 0, "atletismo": 0, "atuacao": 0, "briga": 0,
+"cavalgar": 0, "diplomacia": 0, "enganacao": 0, "erudicao": 0,
+"furtividade": 0, "furto": 0, "guerra": 0, "intimidar": 0,
+"investigacao": 0, "intuicao": 0, "lideranca": 0, "medicina": 0,
+"mira": 0, "navegacao": 0, "ocultismo": 0, "percepcao": 0,
+"primeirosSocorros": 0, "seducao": 0, "sobrevivencia": 0, "tecnica": 0
+}
+}
+},
+"types": {
+"character": { "templates": ["base"] },
+"ship": { "templates": ["base"] }
+}
+}
+}

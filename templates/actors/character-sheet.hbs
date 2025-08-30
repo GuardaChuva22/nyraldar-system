@@ -1,0 +1,44 @@
+<section class="nyr sheet-body">
+<header class="nyr-header">
+<h1 contenteditable="true" data-field="name">{{actor.name}}</h1>
+</header>
+
+
+<div class="grid grid-2">
+<div>
+<h2>{{localize "NYR.Resources"}}</h2>
+<div class="res-row">
+<label>Vitalidade <input class="res-input" data-path="system.recursos.vitalidade" type="number" value="{{system.recursos.vitalidade}}"></label>
+<label>Ferimentos <input class="res-input" data-path="system.recursos.ferimentos" type="number" value="{{system.recursos.ferimentos}}"></label>
+<label>Sorte <input class="res-input" data-path="system.recursos.sorte" type="number" value="{{system.recursos.sorte}}"></label>
+</div>
+
+
+<h2>{{localize "NYR.Attributes"}}</h2>
+<div class="attrs">
+{{#each system.atributos as |val key|}}
+<label>{{key}} <input class="res-input" data-path="system.atributos.{{key}}" type="number" value="{{val}}"></label>
+{{/each}}
+</div>
+</div>
+
+
+<div>
+<h2>{{localize "NYR.Skills"}}</h2>
+<table class="skills">
+<thead>
+<tr><th>Perícia</th><th>Valor</th><th></th></tr>
+</thead>
+<tbody>
+{{#each system.pericias as |val key|}}
+<tr>
+<td class="skill-name">{{key}}</td>
+<td><input class="res-input" data-path="system.pericias.{{key}}" type="number" value="{{val}}"></td>
+<td><button type="button" class="skill-roll" data-key="{{key}}">{{localize "NYR.Roll"}}</button></td>
+</tr>
+{{/each}}
+</tbody>
+</table>
+</div>
+</div>
+</section>

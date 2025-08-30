@@ -1,0 +1,16 @@
+{
+"NYR.SystemTitle": "Nyraldar RPG (MVP)",
+"NYR.Character": "Personagem",
+"NYR.Ship": "Navio",
+"NYR.Resources": "Recursos",
+"NYR.Attributes": "Atributos",
+"NYR.Skills": "Perícias",
+"NYR.Roll": "Rolar",
+"NYR.Target": "Alvo",
+"NYR.Advantage": "Vantagem",
+"NYR.Disadvantage": "Desvantagem",
+"NYR.Normal": "Normal",
+"NYR.Luck": "Gastar 1 Sorte se falhar",
+"NYR.Mod": "Mod. situacional",
+"NYR.AttrBonus": "Bônus de atributo"
+}
